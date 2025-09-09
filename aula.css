@@ -1,0 +1,54 @@
+/* tag de comentario */
+/* podemos selecionar uma tag pelo nome, pelo id
+(identificar único ou pela classe.) */
+body{
+    /*alterar a cor do fundo do site */
+background-color: rgb(178, 178, 224);
+/* insere uma imagem no fundo do site */
+background-image: url("https://img.freepik.com/fotos-gratis/fundo-azul-do-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner_1258-54043.jpg?semt=ais_hybrid&w=740&q=80")
+
+}
+
+p{
+color: rgb(129, 0, 250);
+}
+/* sempre que chamamos uma tag pelo id, adicionamos o sinal "#" no inicio */
+
+#primeiro{
+    color: rgb(0, 255, 170);
+}
+/* sempre que chamamos uma tag pela classe, adicionamos o sinal "." no inicio */
+.titulo{
+    /* adiciona um sublinhado ao texto */
+    text-decoration: underline;
+    /* lterar o tamanho da fonte, medidas em (px, rem) */
+    font-size: 21px;
+    /* selecione a familia da fonte */
+    font-family: 'Times New Roman', Times, serif;
+    /* alterar o nivel de negrito da fonte */
+    font-size: 560;
+}
+
+img{
+/*aterar a altura da imagem */
+height: 360px;
+/* alterar a largura da imagem */
+width: 360px;
+}
+ul{
+    /* altera o estilo da lista */
+    list-style: none;
+    display: flex;
+    li{
+        a{
+            /* cria um espaçamento interno */
+            padding: 10px;
+            /* altera o arredondamento dos itens */
+            border-radius: 10px;
+           /* alterar a cor do fundo */
+           background-color: rgb(255, 224, 185);
+            /* cria um espaçamento entre itens */
+            gap: 10px
+        }
+    }
+}
